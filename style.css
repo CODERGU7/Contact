@@ -364,7 +364,9 @@ footer{
 		"info"
 		"map";
 	}
-	
+.form{
+	min-height:100vh;
+	}
 .contact{
 		padding:20px;
 	}
