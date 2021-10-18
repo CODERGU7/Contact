@@ -62,6 +62,41 @@ nav img{
     margin: 0vh 2%;
 }
 
+/*****header section (start)******/
+header{
+    box-shadow: 0 15px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    background-color: rgb(0, 38, 98);
+    font-family: 'Nunito', sans-serif;
+}
+header img{
+    height: 100vh;
+    width: 100vw;
+    filter: blur(1px);
+    opacity: 70%;
+}
+.header-content{
+    bottom: 43vh;
+    left: 21vw;
+    position: absolute;
+}
+
+#head1 span:hover{
+    cursor:pointer;
+    transition: all 0.5s ease;
+    color: rgb(0, 49, 112);
+}
+
+.header-content h1{
+    font-size: 48px;
+    line-height: 100px;
+    color: white;
+    font-weight:lighter;
+}
+
+/*****header section (end)******/
+
+
 /*****Contact us ********/
 .contactUs{	
 	position:relative;
@@ -117,67 +152,6 @@ nav img{
 	margin-bottom:10px;
 }
 
-/*****Form*********/
-.formBox{
-	position: relative;
-	width:100%;	
-}
-
-.formBox .row50{
-	display:flex;
-	gap: 20px;
-}
-
-.inputBox{
-	display:flex;
-	flex-direction: column;
-	margin-bottom:10px;
-	width: 50%;
-}
-
-.formBox .row100 .inputBox{
-	width:100%;
-}
-
-.inputBox span{
-	color: #18b7ff;
-	margin-top: 10px;
-	margin-bottom: 5px;
-	font-weight: 500;
-}
-
-.inputBox input{
-	padding:10px;
-	font-size:1.1em;
-	outline:none;
-	border: 1px solid #333;
-}
-
-.inputBox textarea{
-	padding:10px;
-	font-size:1.1em;
-	outline:none;
-	border: 1px solid #333;
-	resize:none;
-	min-height:220px;
-	margin-bottom: 10px;
-}
-
-.inputBox input[type="submit"]
-{
-	background: #ff578b;
-	color: #fff;
-	border: none;
-	font-size: 1.1em;
-	max-width: 120px;
-	font-weight:500;
-	cursor:pointer;
-	padding: 14px 15px;
-}
-
-.inputBox ::placeholder{
-	color:#999;
-}
 
 /************Info*************/
 .info{
@@ -391,16 +365,6 @@ footer{
 		"map";
 	}
 	
-.formBox .row50{
-		display:flex;
-		gap:0;
-		flex-direction:column;
-	}
-	
-.inputBox{
-		width:100%;
-	}
-
 .contact{
 		padding:20px;
 	}
